@@ -31,7 +31,7 @@ background-image: url("1.jpg");
 			window.onload = function(e){if(sessionStorage.Queue==null){sessionStorage.Queue="";}else if(sessionStorage.Queue!=""){executependingqueue(sessionStorage.Queue);}};
 			window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Page Caching Started!!"};
 			window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML="Caching Status: "+(Math.round(100*(a.loaded/a.total)))+"% Completed"};
-			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully!!";setTimeout(function(){document.getElementById("progress").innerHTML="Turn Off the Internet & Reopen the Page to Run the Exploit!!"; }, 1500);};
+			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully!!";setTimeout(function(){document.getElementById("progress").innerHTML="Reopen the Page , Trainer to cache , Turn off internet, Run the Exploit!!"; }, 1500);};
 		</script>
 		<h1 id="progress" class="titlehead">EXPLOIT 9.00</h1><br>
 		<input type="hidden" id="psip" value="localhost"/>
